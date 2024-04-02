@@ -1,0 +1,86 @@
+<!-- activity_add_user.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"/>
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <RadioGroup
+        android:id="@+id/radioDegreeProgram"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/seRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software Engineering" />
+
+        <RadioButton
+            android:id="@+id/imRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Industrial Management" />
+
+        <RadioButton
+            android:id="@+id/ceRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computational Engineering" />
+
+        <RadioButton
+            android:id="@+id/eeRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical Engineering" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/phdCheckBox"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:text="Ph.d" />
+
+    <CheckBox
+        android:id="@+id/lciCheckBox"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:text="Lic." />
+
+    <CheckBox
+        android:id="@+id/bcCheckBox"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="B.Sc." />
+
+    <CheckBox
+        android:id="@+id/msCheckBox"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="M.Sc." />
+
+    <Button
+        android:id="@+id/addUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User" />
+
+</LinearLayout>
